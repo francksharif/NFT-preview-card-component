@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>NFT Card</title>
+  </head>
+  <body class="body-color">
+    <!--Container-->
+
+    <div class="flex justify-center">
+      <!--Card -->
+      <div class="card-color w-80 p-5 my-24 rounded-xl shadow-2xl">
+        <!--Card container-->
+        <div>
+          <!-- Image -->
+          <div class="cursor-pointer group relative">
+            <img
+              src="images/image-equilibrium.jpg"
+              alt=""
+              class="rounded-lg mb-6"
+            />
+            <img
+              src="images/icon-view.svg"
+              alt=""
+              class="hidden absolute top-28 left-28 group-hover:block transition duration-150"
+            />
+            <div
+              class="absolute hidden top-0 bottom-0 right-0 left-0 opacity-50 image-gradient group-hover:block transition duration-150"
+            ></div>
+          </div>
+
+          <!--Content -->
+          <div>
+            <!--title-->
+            <h2 class="white text-2xl font-semibold mb-4 cursor-pointer title">
+              Equilibrium #3429
+            </h2>
+            <p class="description-color mb-4">
+              Our Equilibrium collection promotes balance and calm.
+            </p>
+
+            <!--Description -->
+            <div class="flex justify-between">
+              <div class="flex items-center justify-between space-x-2">
+                <img src="images/icon-ethereum.svg" alt="" />
+                <span class="cyan-color font-semibold">0.041 ETH</span>
+              </div>
+              <div class="flex items-center space-x-2">
+                <img src="images/icon-clock.svg" alt="" />
+                <span class="description-color">3 days left</span>
+              </div>
+            </div>
+
+            <!--White line-->
+            <div class="line-color w-full height my-4"></div>
+
+            <!-- Author-->
+            <div class="flex my-2 items-center space-x-4">
+              <img
+                src="images/image-avatar.png"
+                alt=""
+                class="w-8 h-8 border border-white rounded-full"
+              />
+              <p class="white">
+                <span class="description-color">Creation of </span>
+                <span class="cursor-pointer author">Jules Wyvern</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

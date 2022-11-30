@@ -1,0 +1,51 @@
+.body-color {
+  background-color: hsl(217, 54%, 11%);
+}
+
+.card-color {
+  background-color: hsl(216, 50%, 16%);
+}
+
+.line-color {
+  background-color: hsl(215, 32%, 27%);
+}
+
+.white {
+  color: hsl(0, 0%, 100%);
+}
+
+.description-color {
+  color: hsl(215, 51%, 70%);
+}
+
+.cyan-color {
+  color: hsl(178, 100%, 50%);
+}
+
+.body-font {
+  font-family: "Outfit", sans-serif;
+}
+
+.align-center {
+  align-items: center;
+}
+.height {
+  height: 1px;
+}
+
+.author:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.image-gradient {
+  background: rgb(25, 186, 148);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 247, 1) 0%,
+    rgba(0, 255, 247, 1) 100%
+  );
+}
